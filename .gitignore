@@ -1,0 +1,8 @@
+node_modules/
+.babelrc
+package-lock.json
+dist/
+.vscode
+__pycache__
+*.pyc
+secrets.json
