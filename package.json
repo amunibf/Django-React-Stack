@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
     "dev": "webpack --watch --mode development ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
   },
